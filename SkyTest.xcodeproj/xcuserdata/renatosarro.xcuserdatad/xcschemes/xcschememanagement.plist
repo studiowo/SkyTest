@@ -7,7 +7,30 @@
 		<key>SkyTest.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>0</integer>
+			<integer>20</integer>
+		</dict>
+		<key>SkyTestTests.xcscheme_^#shared#^_</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>21</integer>
+		</dict>
+	</dict>
+	<key>SuppressBuildableAutocreation</key>
+	<dict>
+		<key>07637576219087DF00554A93</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>0763758A219087E100554A93</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>07637595219087E100554A93</key>
+		<dict>
+			<key>primary</key>
+			<true/>
 		</dict>
 	</dict>
 </dict>

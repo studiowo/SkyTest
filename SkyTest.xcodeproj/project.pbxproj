@@ -7,13 +7,24 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		070FAEF921908CEC008C4AA5 /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 070FAEF821908CEC008C4AA5 /* BaseViewController.swift */; };
+		070FAEFD21908E17008C4AA5 /* MovieModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 070FAEFC21908E17008C4AA5 /* MovieModel.swift */; };
+		070FAEFF21908E8C008C4AA5 /* MoviesInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 070FAEFE21908E8C008C4AA5 /* MoviesInteractor.swift */; };
+		070FAF0221908EE1008C4AA5 /* MovieRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 070FAF0121908EE1008C4AA5 /* MovieRouter.swift */; };
+		070FAF0421908F82008C4AA5 /* ListMoviesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 070FAF0321908F82008C4AA5 /* ListMoviesViewController.swift */; };
+		070FAF0621908F98008C4AA5 /* MoviesCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 070FAF0521908F98008C4AA5 /* MoviesCoordinator.swift */; };
+		070FAF0821909057008C4AA5 /* DetailMovieViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 070FAF0721909057008C4AA5 /* DetailMovieViewController.swift */; };
+		070FAF0B2190A59C008C4AA5 /* ViewCodeProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 070FAF0A2190A59C008C4AA5 /* ViewCodeProtocol.swift */; };
+		070FAF0D2190A867008C4AA5 /* ListMoviewsDataSourceDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 070FAF0C2190A867008C4AA5 /* ListMoviewsDataSourceDelegate.swift */; };
+		070FAF0F2190A94C008C4AA5 /* MoviewCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 070FAF0E2190A94C008C4AA5 /* MoviewCollectionViewCell.swift */; };
+		070FAF122190AB10008C4AA5 /* UIImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 070FAF112190AB10008C4AA5 /* UIImageView.swift */; };
 		0763757B219087DF00554A93 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0763757A219087DF00554A93 /* AppDelegate.swift */; };
-		0763757D219087DF00554A93 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0763757C219087DF00554A93 /* ViewController.swift */; };
 		07637580219087DF00554A93 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0763757E219087DF00554A93 /* Main.storyboard */; };
 		07637582219087E100554A93 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 07637581219087E100554A93 /* Assets.xcassets */; };
 		07637585219087E100554A93 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 07637583219087E100554A93 /* LaunchScreen.storyboard */; };
 		07637590219087E100554A93 /* SkyTestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0763758F219087E100554A93 /* SkyTestTests.swift */; };
-		0763759B219087E100554A93 /* SkyTestUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0763759A219087E100554A93 /* SkyTestUITests.swift */; };
+		DBEC3E0E28A99286C4BE6621 /* libPods-default-SkyTest.a in Frameworks */ = {isa = PBXBuildFile; fileRef = DB1CF66CD484820DD9E1649F /* libPods-default-SkyTest.a */; };
+		EBB9F999D6D6CB9A45F352E6 /* Pods_SkyTestTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D621767947CBFF23A3B1DCC0 /* Pods_SkyTestTests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -24,19 +35,22 @@
 			remoteGlobalIDString = 07637576219087DF00554A93;
 			remoteInfo = SkyTest;
 		};
-		07637597219087E100554A93 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 0763756F219087DF00554A93 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 07637576219087DF00554A93;
-			remoteInfo = SkyTest;
-		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		070FAEF821908CEC008C4AA5 /* BaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
+		070FAEFC21908E17008C4AA5 /* MovieModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieModel.swift; sourceTree = "<group>"; };
+		070FAEFE21908E8C008C4AA5 /* MoviesInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoviesInteractor.swift; sourceTree = "<group>"; };
+		070FAF0121908EE1008C4AA5 /* MovieRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieRouter.swift; sourceTree = "<group>"; };
+		070FAF0321908F82008C4AA5 /* ListMoviesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListMoviesViewController.swift; sourceTree = "<group>"; };
+		070FAF0521908F98008C4AA5 /* MoviesCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoviesCoordinator.swift; sourceTree = "<group>"; };
+		070FAF0721909057008C4AA5 /* DetailMovieViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailMovieViewController.swift; sourceTree = "<group>"; };
+		070FAF0A2190A59C008C4AA5 /* ViewCodeProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewCodeProtocol.swift; sourceTree = "<group>"; };
+		070FAF0C2190A867008C4AA5 /* ListMoviewsDataSourceDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListMoviewsDataSourceDelegate.swift; sourceTree = "<group>"; };
+		070FAF0E2190A94C008C4AA5 /* MoviewCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoviewCollectionViewCell.swift; sourceTree = "<group>"; };
+		070FAF112190AB10008C4AA5 /* UIImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIImageView.swift; sourceTree = "<group>"; };
 		07637577219087DF00554A93 /* SkyTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SkyTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0763757A219087DF00554A93 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		0763757C219087DF00554A93 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		0763757F219087DF00554A93 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		07637581219087E100554A93 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		07637584219087E100554A93 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -44,9 +58,12 @@
 		0763758B219087E100554A93 /* SkyTestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SkyTestTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0763758F219087E100554A93 /* SkyTestTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SkyTestTests.swift; sourceTree = "<group>"; };
 		07637591219087E100554A93 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		07637596219087E100554A93 /* SkyTestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SkyTestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		0763759A219087E100554A93 /* SkyTestUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SkyTestUITests.swift; sourceTree = "<group>"; };
-		0763759C219087E100554A93 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1A321ECCCEF3219E846A16B6 /* Pods-default-SkyTest.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-default-SkyTest.release.xcconfig"; path = "Pods/Target Support Files/Pods-default-SkyTest/Pods-default-SkyTest.release.xcconfig"; sourceTree = "<group>"; };
+		79E1EA3DA421545B5FDE5A53 /* Pods-SkyTestTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SkyTestTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-SkyTestTests/Pods-SkyTestTests.release.xcconfig"; sourceTree = "<group>"; };
+		B8612CC7C5D8EF2861EF9B23 /* Pods-default-SkyTest.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-default-SkyTest.debug.xcconfig"; path = "Pods/Target Support Files/Pods-default-SkyTest/Pods-default-SkyTest.debug.xcconfig"; sourceTree = "<group>"; };
+		D621767947CBFF23A3B1DCC0 /* Pods_SkyTestTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SkyTestTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DB1CF66CD484820DD9E1649F /* libPods-default-SkyTest.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-default-SkyTest.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E69E82AB5F299B7FFA166195 /* Pods-SkyTestTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SkyTestTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SkyTestTests/Pods-SkyTestTests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +71,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DBEC3E0E28A99286C4BE6621 /* libPods-default-SkyTest.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,26 +79,133 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		07637593219087E100554A93 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
+				EBB9F999D6D6CB9A45F352E6 /* Pods_SkyTestTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		070FAEEF21908BAC008C4AA5 /* Movies */ = {
+			isa = PBXGroup;
+			children = (
+				070FAEF521908BFF008C4AA5 /* Protocols */,
+				070FAEF421908BF5008C4AA5 /* Interactor */,
+				070FAEF221908BE8008C4AA5 /* Views */,
+				070FAEF121908BDC008C4AA5 /* Controllers */,
+				070FAEF021908BD6008C4AA5 /* Coordinator */,
+			);
+			path = Movies;
+			sourceTree = "<group>";
+		};
+		070FAEF021908BD6008C4AA5 /* Coordinator */ = {
+			isa = PBXGroup;
+			children = (
+				070FAF0521908F98008C4AA5 /* MoviesCoordinator.swift */,
+			);
+			path = Coordinator;
+			sourceTree = "<group>";
+		};
+		070FAEF121908BDC008C4AA5 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				070FAF0321908F82008C4AA5 /* ListMoviesViewController.swift */,
+				070FAF0721909057008C4AA5 /* DetailMovieViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		070FAEF221908BE8008C4AA5 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				070FAF0E2190A94C008C4AA5 /* MoviewCollectionViewCell.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		070FAEF421908BF5008C4AA5 /* Interactor */ = {
+			isa = PBXGroup;
+			children = (
+				070FAEFE21908E8C008C4AA5 /* MoviesInteractor.swift */,
+			);
+			path = Interactor;
+			sourceTree = "<group>";
+		};
+		070FAEF521908BFF008C4AA5 /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				070FAF0C2190A867008C4AA5 /* ListMoviewsDataSourceDelegate.swift */,
+			);
+			path = Protocols;
+			sourceTree = "<group>";
+		};
+		070FAEF621908CC4008C4AA5 /* Features */ = {
+			isa = PBXGroup;
+			children = (
+				070FAEEF21908BAC008C4AA5 /* Movies */,
+			);
+			path = Features;
+			sourceTree = "<group>";
+		};
+		070FAEF721908CE0008C4AA5 /* Global */ = {
+			isa = PBXGroup;
+			children = (
+				070FAF102190AB04008C4AA5 /* UI */,
+				070FAF092190A590008C4AA5 /* Protocol */,
+				070FAEF821908CEC008C4AA5 /* BaseViewController.swift */,
+			);
+			path = Global;
+			sourceTree = "<group>";
+		};
+		070FAEFA21908DFB008C4AA5 /* API */ = {
+			isa = PBXGroup;
+			children = (
+				070FAF0021908ED3008C4AA5 /* Router */,
+				070FAEFB21908DFF008C4AA5 /* Models */,
+			);
+			path = API;
+			sourceTree = "<group>";
+		};
+		070FAEFB21908DFF008C4AA5 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				070FAEFC21908E17008C4AA5 /* MovieModel.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		070FAF0021908ED3008C4AA5 /* Router */ = {
+			isa = PBXGroup;
+			children = (
+				070FAF0121908EE1008C4AA5 /* MovieRouter.swift */,
+			);
+			path = Router;
+			sourceTree = "<group>";
+		};
+		070FAF092190A590008C4AA5 /* Protocol */ = {
+			isa = PBXGroup;
+			children = (
+				070FAF0A2190A59C008C4AA5 /* ViewCodeProtocol.swift */,
+			);
+			path = Protocol;
+			sourceTree = "<group>";
+		};
+		070FAF102190AB04008C4AA5 /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				070FAF112190AB10008C4AA5 /* UIImageView.swift */,
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
 		0763756E219087DF00554A93 = {
 			isa = PBXGroup;
 			children = (
 				07637579219087DF00554A93 /* SkyTest */,
 				0763758E219087E100554A93 /* SkyTestTests */,
-				07637599219087E100554A93 /* SkyTestUITests */,
 				07637578219087DF00554A93 /* Products */,
+				1F371EE307124C226AC08B40 /* Pods */,
+				4464AE5063FF122AAF3E9E67 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -89,7 +214,6 @@
 			children = (
 				07637577219087DF00554A93 /* SkyTest.app */,
 				0763758B219087E100554A93 /* SkyTestTests.xctest */,
-				07637596219087E100554A93 /* SkyTestUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -97,8 +221,10 @@
 		07637579219087DF00554A93 /* SkyTest */ = {
 			isa = PBXGroup;
 			children = (
+				070FAEFA21908DFB008C4AA5 /* API */,
+				070FAEF721908CE0008C4AA5 /* Global */,
+				070FAEF621908CC4008C4AA5 /* Features */,
 				0763757A219087DF00554A93 /* AppDelegate.swift */,
-				0763757C219087DF00554A93 /* ViewController.swift */,
 				0763757E219087DF00554A93 /* Main.storyboard */,
 				07637581219087E100554A93 /* Assets.xcassets */,
 				07637583219087E100554A93 /* LaunchScreen.storyboard */,
@@ -116,13 +242,24 @@
 			path = SkyTestTests;
 			sourceTree = "<group>";
 		};
-		07637599219087E100554A93 /* SkyTestUITests */ = {
+		1F371EE307124C226AC08B40 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				0763759A219087E100554A93 /* SkyTestUITests.swift */,
-				0763759C219087E100554A93 /* Info.plist */,
+				E69E82AB5F299B7FFA166195 /* Pods-SkyTestTests.debug.xcconfig */,
+				79E1EA3DA421545B5FDE5A53 /* Pods-SkyTestTests.release.xcconfig */,
+				B8612CC7C5D8EF2861EF9B23 /* Pods-default-SkyTest.debug.xcconfig */,
+				1A321ECCCEF3219E846A16B6 /* Pods-default-SkyTest.release.xcconfig */,
 			);
-			path = SkyTestUITests;
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		4464AE5063FF122AAF3E9E67 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D621767947CBFF23A3B1DCC0 /* Pods_SkyTestTests.framework */,
+				DB1CF66CD484820DD9E1649F /* libPods-default-SkyTest.a */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -132,9 +269,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 0763759F219087E100554A93 /* Build configuration list for PBXNativeTarget "SkyTest" */;
 			buildPhases = (
+				8624BB50F4D2EC0F318B518E /* [CP] Check Pods Manifest.lock */,
 				07637573219087DF00554A93 /* Sources */,
 				07637574219087DF00554A93 /* Frameworks */,
 				07637575219087DF00554A93 /* Resources */,
+				634410460A9C892212B261BD /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -149,9 +288,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 076375A2219087E100554A93 /* Build configuration list for PBXNativeTarget "SkyTestTests" */;
 			buildPhases = (
+				15CEC1836E51141F9B9A0B1C /* [CP] Check Pods Manifest.lock */,
 				07637587219087E100554A93 /* Sources */,
 				07637588219087E100554A93 /* Frameworks */,
 				07637589219087E100554A93 /* Resources */,
+				64CA7D7C2B857513E43E4995 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -162,24 +303,6 @@
 			productName = SkyTestTests;
 			productReference = 0763758B219087E100554A93 /* SkyTestTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
-		};
-		07637595219087E100554A93 /* SkyTestUITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 076375A5219087E100554A93 /* Build configuration list for PBXNativeTarget "SkyTestUITests" */;
-			buildPhases = (
-				07637592219087E100554A93 /* Sources */,
-				07637593219087E100554A93 /* Frameworks */,
-				07637594219087E100554A93 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				07637598219087E100554A93 /* PBXTargetDependency */,
-			);
-			name = SkyTestUITests;
-			productName = SkyTestUITests;
-			productReference = 07637596219087E100554A93 /* SkyTestUITests.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
 
@@ -195,10 +318,6 @@
 						CreatedOnToolsVersion = 10.0;
 					};
 					0763758A219087E100554A93 = {
-						CreatedOnToolsVersion = 10.0;
-						TestTargetID = 07637576219087DF00554A93;
-					};
-					07637595219087E100554A93 = {
 						CreatedOnToolsVersion = 10.0;
 						TestTargetID = 07637576219087DF00554A93;
 					};
@@ -219,7 +338,6 @@
 			targets = (
 				07637576219087DF00554A93 /* SkyTest */,
 				0763758A219087E100554A93 /* SkyTestTests */,
-				07637595219087E100554A93 /* SkyTestUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -242,22 +360,120 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		07637594219087E100554A93 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		15CEC1836E51141F9B9A0B1C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SkyTestTests-checkManifestLockResult.txt",
+			);
 			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
 		};
-/* End PBXResourcesBuildPhase section */
+		634410460A9C892212B261BD /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-default-SkyTest/Pods-default-SkyTest-resources.sh",
+				"${PODS_ROOT}/SVProgressHUD/SVProgressHUD/SVProgressHUD.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/SVProgressHUD.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-default-SkyTest/Pods-default-SkyTest-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		64CA7D7C2B857513E43E4995 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-SkyTestTests/Pods-SkyTestTests-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/KIF/KIF.framework",
+				"${BUILT_PRODUCTS_DIR}/KIF-Quick/KIF_Quick.framework",
+				"${BUILT_PRODUCTS_DIR}/Quick/Quick.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/KIF.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/KIF_Quick.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Quick.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SkyTestTests/Pods-SkyTestTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8624BB50F4D2EC0F318B518E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-default-SkyTest-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		07637573219087DF00554A93 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0763757D219087DF00554A93 /* ViewController.swift in Sources */,
+				070FAEFD21908E17008C4AA5 /* MovieModel.swift in Sources */,
+				070FAF0821909057008C4AA5 /* DetailMovieViewController.swift in Sources */,
+				070FAF0621908F98008C4AA5 /* MoviesCoordinator.swift in Sources */,
+				070FAF0F2190A94C008C4AA5 /* MoviewCollectionViewCell.swift in Sources */,
 				0763757B219087DF00554A93 /* AppDelegate.swift in Sources */,
+				070FAF122190AB10008C4AA5 /* UIImageView.swift in Sources */,
+				070FAEFF21908E8C008C4AA5 /* MoviesInteractor.swift in Sources */,
+				070FAEF921908CEC008C4AA5 /* BaseViewController.swift in Sources */,
+				070FAF0421908F82008C4AA5 /* ListMoviesViewController.swift in Sources */,
+				070FAF0B2190A59C008C4AA5 /* ViewCodeProtocol.swift in Sources */,
+				070FAF0D2190A867008C4AA5 /* ListMoviewsDataSourceDelegate.swift in Sources */,
+				070FAF0221908EE1008C4AA5 /* MovieRouter.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -269,14 +485,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		07637592219087E100554A93 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				0763759B219087E100554A93 /* SkyTestUITests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -284,11 +492,6 @@
 			isa = PBXTargetDependency;
 			target = 07637576219087DF00554A93 /* SkyTest */;
 			targetProxy = 0763758C219087E100554A93 /* PBXContainerItemProxy */;
-		};
-		07637598219087E100554A93 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 07637576219087DF00554A93 /* SkyTest */;
-			targetProxy = 07637597219087E100554A93 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -430,44 +633,49 @@
 		};
 		076375A0219087E100554A93 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B8612CC7C5D8EF2861EF9B23 /* Pods-default-SkyTest.debug.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = "$(inherited)";
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = N6J63MHP63;
+				DEVELOPMENT_TEAM = 5T7FR4UXG4;
 				INFOPLIST_FILE = SkyTest/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "Renato-Matos.SkyTest";
+				PRODUCT_BUNDLE_IDENTIFIER = "Renato-Matos.SkyTest.wo";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
 		076375A1219087E100554A93 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1A321ECCCEF3219E846A16B6 /* Pods-default-SkyTest.release.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = "$(inherited)";
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = N6J63MHP63;
+				DEVELOPMENT_TEAM = 5T7FR4UXG4;
 				INFOPLIST_FILE = SkyTest/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "Renato-Matos.SkyTest";
+				PRODUCT_BUNDLE_IDENTIFIER = "Renato-Matos.SkyTest.wo";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
 		076375A3219087E100554A93 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E69E82AB5F299B7FFA166195 /* Pods-SkyTestTests.debug.xcconfig */;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = "$(inherited)";
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = N6J63MHP63;
@@ -479,6 +687,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "Renato-Matos.SkyTestTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SkyTest.app/SkyTest";
@@ -487,8 +696,9 @@
 		};
 		076375A4219087E100554A93 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 79E1EA3DA421545B5FDE5A53 /* Pods-SkyTestTests.release.xcconfig */;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = "$(inherited)";
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = N6J63MHP63;
@@ -500,49 +710,10 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "Renato-Matos.SkyTestTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SkyTest.app/SkyTest";
-			};
-			name = Release;
-		};
-		076375A6219087E100554A93 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = N6J63MHP63;
-				INFOPLIST_FILE = SkyTestUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = "Renato-Matos.SkyTestUITests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.2;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = SkyTest;
-			};
-			name = Debug;
-		};
-		076375A7219087E100554A93 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = N6J63MHP63;
-				INFOPLIST_FILE = SkyTestUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = "Renato-Matos.SkyTestUITests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.2;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = SkyTest;
 			};
 			name = Release;
 		};
@@ -572,15 +743,6 @@
 			buildConfigurations = (
 				076375A3219087E100554A93 /* Debug */,
 				076375A4219087E100554A93 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		076375A5219087E100554A93 /* Build configuration list for PBXNativeTarget "SkyTestUITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				076375A6219087E100554A93 /* Debug */,
-				076375A7219087E100554A93 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

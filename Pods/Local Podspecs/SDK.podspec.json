@@ -1,0 +1,54 @@
+{
+  "name": "SDK",
+  "version": "0.0.1",
+  "summary": "SDK Framework",
+  "homepage": "http://www.renatomatos.com.br",
+  "license": "Renato Matos",
+  "authors": {
+    "Renato Matos": "renatorsarro@gmail.com"
+  },
+  "platforms": {
+    "ios": "9.0"
+  },
+  "source": {
+    "path": "."
+  },
+  "source_files": [
+    "SDK",
+    "SDK/**/*.{h,m,swift}"
+  ],
+  "resource_bundles": {
+  },
+  "pod_target_xcconfig": {
+    "SWIFT_VERSION": "4"
+  },
+  "ios": {
+    "vendored_frameworks": "Products/SDK.framework"
+  },
+  "dependencies": {
+    "Alamofire": [
+
+    ],
+    "AlamofireImage": [
+
+    ],
+    "AlamofireNetworkActivityLogger": [
+
+    ],
+    "Firebase/Core": [
+
+    ],
+    "Firebase/Database": [
+
+    ],
+    "Firebase/RemoteConfig": [
+
+    ],
+    "Hero": [
+
+    ],
+    "SwiftyRSA": [
+
+    ]
+  }
+}

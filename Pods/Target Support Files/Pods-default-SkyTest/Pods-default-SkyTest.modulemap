@@ -1,0 +1,6 @@
+module Pods_default_SkyTest {
+  umbrella header "Pods-default-SkyTest-umbrella.h"
+
+  export *
+  module * { export * }
+}
