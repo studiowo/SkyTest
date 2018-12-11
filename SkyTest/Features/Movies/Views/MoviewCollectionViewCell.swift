@@ -7,9 +7,8 @@
 //
 
 import UIKit
-import Reusable
 
-class MoviewCollectionViewCell: UICollectionViewCell, ViewCodeProtocol, Reusable {
+class MoviewCollectionViewCell: CollectionViewSelfSizingItemCell, ViewCodeProtocol {
     lazy var imageView: UIImageView = UIImageView()
     lazy var labelTitle: UILabel = UILabel()
     

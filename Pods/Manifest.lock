@@ -81,6 +81,7 @@ PODS:
     - nanopb/encode (= 0.3.8)
   - nanopb/decode (0.3.8)
   - nanopb/encode (0.3.8)
+  - Nimble (7.3.1)
   - Protobuf (3.6.1)
   - Quick (1.3.2)
   - Reusable (4.0.4):
@@ -105,6 +106,7 @@ PODS:
 
 DEPENDENCIES:
   - KIF-Quick
+  - Nimble
   - Reusable
   - SDK (from `SDK/`)
   - SVProgressHUD
@@ -129,6 +131,7 @@ SPEC REPOS:
     - KIF-Quick
     - leveldb-library
     - nanopb
+    - Nimble
     - Protobuf
     - Quick
     - Reusable
@@ -158,6 +161,7 @@ SPEC CHECKSUMS:
   KIF-Quick: da968bbfad615fd96c0d5eb4d8fd484ecdc26814
   leveldb-library: 08cba283675b7ed2d99629a4bc5fd052cd2bb6a5
   nanopb: 5601e6bca2dbf1ed831b519092ec110f66982ca3
+  Nimble: 04f732da099ea4d153122aec8c2a88fd0c7219ae
   Protobuf: 1eb9700044745f00181c136ef21b8ff3ad5a0fd5
   Quick: 2623cb30d7a7f41ca62f684f679586558f483d46
   Reusable: 7fc772097df3e5fc86f59d8a7af9708e49b5ff55
@@ -166,6 +170,6 @@ SPEC CHECKSUMS:
   SwiftyRSA: 6e528fb1b1a87d5111c48081083b141d6d65f1cf
   Toast-Swift: 594b5c5e5129f15438e410207e43287f027b3c00
 
-PODFILE CHECKSUM: 65b4998cec26a3e4acf1010130a771fc6ce701c7
+PODFILE CHECKSUM: 5cfcb45722f41e214b732d2967c3c0b11a7a447e
 
 COCOAPODS: 1.5.3

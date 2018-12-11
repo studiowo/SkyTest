@@ -11,12 +11,12 @@ import KIF_Quick
 
 @testable import SkyTest
 
-class ListMovieViewController: KIFSpec {
+class ListMovieViewControllerTest: KIFSpec {
 
     override func spec() {
         
         describe("when application is initialize") {
-            
+        
             it("should to show list movies", closure: {
                 viewTester().usingIdentifier("listMoviesCollection").waitForView()
             })
@@ -25,12 +25,11 @@ class ListMovieViewController: KIFSpec {
                 it("should to show movie detail", closure: {
                     viewTester().usingIdentifier("listMoviesCollection").waitForView()
                     viewTester().usingIdentifier("listMovieCell_0").tap()
-                    
+
                     viewTester().usingIdentifier("detailMovieViewController").waitForView()
                 })
             })
         }
-        
+    
     }
-
 }

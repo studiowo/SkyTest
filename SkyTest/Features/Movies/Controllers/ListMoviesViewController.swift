@@ -8,13 +8,23 @@
 
 import UIKit
 
+struct ItemSection: CollectionViewSection {
+    var model: MovieModel? = nil
+    var padding: UIEdgeInsets = .zero
+    var distanceBetweenItemsInSection: CGFloat = 10.0
+    var collectionViewItems: [CollectionViewItem] = []    
+    func numberOfItems() -> Int {
+        return 2
+    }
+}
+
 final class ListMoviesViewController: BaseViewController {
     let sectionInsets = UIEdgeInsets(top: 20.0, left: 20.0, bottom: 20.0, right: 20.0)
     let itemsPerRow: CGFloat = 2
     
     let coordinatorProtocol: MoviesCoordinatorProtocol
-    let collectionView: UICollectionView = {
-        let collectionView = UICollectionView(frame: .zero, collectionViewLayout: UICollectionViewFlowLayout())
+    let collectionView: CollectionView = {
+        let collectionView = CollectionView()
         collectionView.accessibilityIdentifier = "listMoviesCollection"
         collectionView.backgroundColor = UIColor.black.withAlphaComponent(0.7)
         collectionView.translatesAutoresizingMaskIntoConstraints = false
@@ -37,6 +47,10 @@ final class ListMoviesViewController: BaseViewController {
         
         self.title = "Filmes"
         self.view.backgroundColor = UIColor.gray
+    }
+    
+    override func viewDidAppear(_ animated: Bool) {
+        super.viewDidAppear(animated)
         
         self.showLoading()
         
@@ -58,6 +72,7 @@ extension ListMoviesViewController: ViewCodeProtocol {
         self.collectionView.register(cellType: MoviewCollectionViewCell.self)
         self.collectionView.dataSource = self
         self.collectionView.delegate = self
+        
     }
     
     func buildViews() {

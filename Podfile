@@ -20,6 +20,7 @@ abstract_target 'default' do
             use_frameworks!
             
             pod 'KIF-Quick'
+            pod 'Nimble'
         end
     end
 end
